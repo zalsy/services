@@ -1,1 +1,4 @@
-poop poop poop
+[
+{"service": "https://api.boosty.to/oauth/phone/authorize", "method": "POST", "headers": "", "data": {"client_id":"$phone"}, "+": 1},
+{"service": "https://shop.vsk.ru/ajax/auth/postSms/", "method": "POST", "headers": "", "data": {"phone":"$phone"}, "+": 0}
+]
